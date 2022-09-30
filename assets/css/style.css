@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +20,14 @@ header {
 
 header h2 {
   color: transparent;
-  background: linear-gradient( to right,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+  background: linear-gradient(
+    to right,
+    rgba(240, 30, 92, 1) 0%,
+    rgba(244, 49, 74, 1) 30.5%,
+    rgba(249, 75, 37, 1) 56.1%,
+    rgba(250, 88, 19, 1) 75.6%,
+    rgba(253, 102, 2, 1) 100.2%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   display: inline-block;
@@ -63,7 +72,11 @@ header h2 {
   padding: 10px 14px;
   border: none;
   cursor: pointer;
-  background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+  background-image: linear-gradient(
+    134.6deg,
+    rgba(201, 37, 107, 1) 15.4%,
+    rgba(116, 16, 124, 1) 74.7%
+  );
   color: white;
   font-size: 16px;
   font-weight: bold;
