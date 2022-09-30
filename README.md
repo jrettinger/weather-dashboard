@@ -6,4 +6,4 @@ I was able to build a weather dashboard that runs in the browser and features dy
 
 ### Screenshot
 
-## Link to Live Site
+### Link to Live Site
