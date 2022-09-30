@@ -3,7 +3,7 @@ const future__div = document.getElementById("futureCards");
 const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 const history__ul = document.getElementById("history");
-const API_KEY = "8bb2ead1ec01028b41139e6bb84639aa";
+const API_KEY = "692efab00ae66e9f48137e6ea4766fcd";
 
 history__ul.addEventListener("click", (event) => {
   searchInput.value = event.target.innerText;
