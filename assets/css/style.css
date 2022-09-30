@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+  color: transparent;
+  background: linear-gradient( to right,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.search-container {
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+#searchForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formgroup {
+  margin: 15px 0 5px;
+}
+
+.formgroup input {
+  border: 1px solid lightgray;
+  padding: 10px 14px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+#searchForm button[type="submit"] {
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#history {
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+  padding: 10px 0;
+}
+
+#history li {
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+#history li:last-child {
+  margin-bottom: 0;
+}
+
+.report-container {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1;
+  width: 100%;
+}
+
+#today div h3 {
+  margin-bottom: 5px;
+}
+
+#today div p {
+  margin-top: 10px;
+}
+
+.future-container {
+  margin-top: 30px;
+}
+
+.future-container h3 {
+  margin-bottom: 10px;
+}
+
+.future-card {
+  background: rgb(44, 36, 36);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.future-card .card-icon {
+  margin-bottom: 10px;
+}
+
+.card-date {
+  font-weight: bolder;
+}
+
+.future-card p {
+  margin-bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
